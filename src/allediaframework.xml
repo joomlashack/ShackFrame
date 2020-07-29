@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="library" version="3.5" method="upgrade">
+<extension type="library" method="upgrade">
     <name>Joomlashack Framework</name>
-    <libraryname>allediaframework</libraryname>
     <author>Joomlashack</author>
-    <creationDate>November 09 2018</creationDate>
+    <authorEmail>help@joomlashack.com</authorEmail>
+    <authorUrl>https://www.joomlashack.com/</authorUrl>
     <copyright>Copyright (C) 2016-2018 Open Source Training, LLC. All rights reserved.</copyright>
-    <license>GPL v3</license>
-    <authorEmail>help@joomlashack.co</authorEmail>
-    <authorUrl>https://www.joomlashack.com</authorUrl>
+    <license>GNU GPL; see LICENSE file</license>
+    <description>Shared library for Joomlashack extensions</description>
+    <creationDate>November 09 2018</creationDate>
     <version>1.6.4</version>
     <variant>FREE</variant>
-    <description>Shared library for Joomlashack extensions</description>
+    <libraryname>allediaframework</libraryname>
 
     <files>
         <filename>include.php</filename>
@@ -20,11 +20,4 @@
     <updateservers>
         <server type="extension" priority="1" name="Joomlashack Framework"><![CDATA[https://deploy.ostraining.com/client/update/free/stable/lib_allediaframework]]></server>
     </updateservers>
-
-    <alledia>
-        <element>allediaframework</element>
-        <namespace>AllediaFramework</namespace>
-        <name>Joomlashack Framework</name>
-        <license>free</license>
-    </alledia>
 </extension>

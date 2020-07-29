@@ -1,0 +1,10 @@
+{
+    "name": "ShackFramework",
+    "element": "lib_allediaframework",
+    "license": "free",
+    "client": "site",
+    "requires": {
+        "joomla": "3.9",
+        "php": "5.6"
+    }
+}
