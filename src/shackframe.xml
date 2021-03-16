@@ -7,17 +7,12 @@
     <copyright>Copyright (C) 2016-2018 Open Source Training, LLC. All rights reserved.</copyright>
     <license>GNU GPL; see LICENSE file</license>
     <description>Shared library for Joomlashack extensions</description>
-    <creationDate>November 09 2018</creationDate>
-    <version>1.6.4</version>
+    <creationDate>March 16, 2021</creationDate>
+    <version>2.0.0-beta.1</version>
     <variant>FREE</variant>
-    <libraryname>allediaframework</libraryname>
+    <libraryname>shackframe</libraryname>
 
     <files>
-        <filename>include.php</filename>
-        <folder>Framework</folder>
+        <folder>Alledia</folder>
     </files>
-
-    <updateservers>
-        <server type="extension" priority="1" name="Joomlashack Framework"><![CDATA[https://deploy.ostraining.com/client/update/free/stable/lib_allediaframework]]></server>
-    </updateservers>
 </extension>
